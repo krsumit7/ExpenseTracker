@@ -1,2 +1,15 @@
-# ExpenseTracker
-A simple Java-based console application to track income and expenses. Users can add transactions, view all records, and see summaries like total income, total expense, and balance. Built using JDBC and MySQL for persistent data storage. 
+# Expense Tracker (Java + MySQL)
+
+## Features
+- Add income/expense entries
+- View transactions
+- See total income, expenses, and balance
+
+## Setup Instructions
+1. Import MySQL DB using `db.sql`
+2. Update `dbconfig.properties` with your DB username/password
+3. Compile and run `ExpenseTracker.java`
+
+## Requirements
+- Java JDK 8+
+- MySQL
